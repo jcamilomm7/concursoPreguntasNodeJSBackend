@@ -48,6 +48,7 @@ const iniciarSesion = (req, res) => {
         if(!userStored){
         res.status(500).send({ message: "Login incorrecto. Coloca las credenciales correctamente" });
         }else{
+          console.log(userStored);
           res.status(500).send({ message: userStored });
         }
       }

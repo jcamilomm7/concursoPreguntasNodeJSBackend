@@ -5,8 +5,6 @@ const { API_VERSION } = require("./config");
 
 //middlewares
 
-
-
 //load routings
 const preguntasroutes = require("./routers/preguntas.js");
 const usuariosroutes = require("./routers/usuarios.js");
